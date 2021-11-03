@@ -1,0 +1,16 @@
+{
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+.container+ .item {
+    display: flex;
+}
+
+nav {
+    width: 100vh;
+    justify-content: space-between;
+}
